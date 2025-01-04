@@ -1,0 +1,53 @@
+[
+  {
+    "id" : "cheetah",
+    "name" : "チーター",
+    "headline" : "サバンナを歩くチーター"
+  },
+  {
+    "id" : "elephant",
+    "name" : "ゾウ",
+    "headline" : "子象と一緒に歩くアフリカゾウ"
+  },
+  {
+    "id" : "giraffe",
+    "name" : "キリン",
+    "headline" : "サバンナを歩く孤独なキリン"
+  },
+  {
+    "id" : "gorilla",
+    "name" : "ゴリラ",
+    "headline" : "歩く西部低地の成熟したゴリラ"
+  },
+  {
+    "id" : "hippo",
+    "name" : "カバ",
+    "headline" : "水の中で子カバと一緒にいる母カバ"
+  },
+  {
+    "id" : "lioness",
+    "name" : "ライオンの雌",
+    "headline" : "アフリカのサバンナをゆっくりと歩くライオンの雌"
+  },
+  {
+    "id" : "lion",
+    "name" : "ライオン",
+    "headline" : "威嚇するアフリカライオンのクローズアップ"
+  },
+  {
+    "id" : "ostrich",
+    "name" : "ダチョウ",
+    "headline" : "サバンナで草を食べる雄ダチョウ"
+  },
+  {
+    "id" : "rhino",
+    "name" : "サイ",
+    "headline" : "草を歩く南部ホワイトサイ"
+  },
+  {
+    "id" : "zebra",
+    "name" : "シマウマ",
+    "headline" : "夏のさびた草を食べる大人のストライプのシマウマ"
+  }
+]
+

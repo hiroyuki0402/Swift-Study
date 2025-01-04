@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BFF7CFE2AD3C27C00168248 /* Hike_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7CFD2AD3C27C00168248 /* Hike_AppApp.swift */; };
+		3BFF7D002AD3C27C00168248 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7CFF2AD3C27C00168248 /* ContentView.swift */; };
+		3BFF7D022AD3C27E00168248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF7D012AD3C27E00168248 /* Assets.xcassets */; };
+		3BFF7D052AD3C27E00168248 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF7D042AD3C27E00168248 /* Preview Assets.xcassets */; };
+		3BFF7D072AD3C27E00168248 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7D062AD3C27E00168248 /* Persistence.swift */; };
+		3BFF7D0A2AD3C27E00168248 /* Hike_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7D082AD3C27E00168248 /* Hike_App.xcdatamodeld */; };
+		3BFF7D132AD3C7D100168248 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7D122AD3C7D100168248 /* CardView.swift */; };
+		3BFF7D152AD3CAA600168248 /* Array-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7D142AD3CAA600168248 /* Array-Extension.swift */; };
+		3BFF7D192AD3CD4500168248 /* BackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7D182AD3CD4500168248 /* BackGroundView.swift */; };
+		3BFF7D1B2AD3CE5100168248 /* Extension-Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7D1A2AD3CE5100168248 /* Extension-Color.swift */; };
+		3BFF7D1D2AD3DAA100168248 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF7D1C2AD3DAA100168248 /* Localizable.strings */; };
+		3BFF7D1F2AD3DDF100168248 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7D1E2AD3DDF100168248 /* CustomButton.swift */; };
+		3BFF7D212AD3ED3000168248 /* CustomCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7D202AD3ED3000168248 /* CustomCircle.swift */; };
+		3BFF7D232AD3EFDF00168248 /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7D222AD3EFDF00168248 /* MotionAnimation.swift */; };
+		3BFF7D262AD3FCFF00168248 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7D252AD3FCFF00168248 /* SettingView.swift */; };
+		3BFF7D282AD40BCA00168248 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF7D272AD40BCA00168248 /* CustomListRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BFF7CFA2AD3C27C00168248 /* Hike-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hike-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFF7CFD2AD3C27C00168248 /* Hike_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike_AppApp.swift; sourceTree = "<group>"; };
+		3BFF7CFF2AD3C27C00168248 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BFF7D012AD3C27E00168248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BFF7D042AD3C27E00168248 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BFF7D062AD3C27E00168248 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3BFF7D092AD3C27E00168248 /* Hike_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hike_App.xcdatamodel; sourceTree = "<group>"; };
+		3BFF7D122AD3C7D100168248 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3BFF7D142AD3CAA600168248 /* Array-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array-Extension.swift"; sourceTree = "<group>"; };
+		3BFF7D182AD3CD4500168248 /* BackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundView.swift; sourceTree = "<group>"; };
+		3BFF7D1A2AD3CE5100168248 /* Extension-Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-Color.swift"; sourceTree = "<group>"; };
+		3BFF7D1C2AD3DAA100168248 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		3BFF7D1E2AD3DDF100168248 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		3BFF7D202AD3ED3000168248 /* CustomCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircle.swift; sourceTree = "<group>"; };
+		3BFF7D222AD3EFDF00168248 /* MotionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimation.swift; sourceTree = "<group>"; };
+		3BFF7D252AD3FCFF00168248 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		3BFF7D272AD40BCA00168248 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
+		3BFF7D292AD424E200168248 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BFF7CF72AD3C27C00168248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BFF7CF12AD3C27C00168248 = {
+			isa = PBXGroup;
+			children = (
+				3BFF7D292AD424E200168248 /* README.md */,
+				3BFF7CFC2AD3C27C00168248 /* Hike-App */,
+				3BFF7CFB2AD3C27C00168248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BFF7CFB2AD3C27C00168248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BFF7CFA2AD3C27C00168248 /* Hike-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BFF7CFC2AD3C27C00168248 /* Hike-App */ = {
+			isa = PBXGroup;
+			children = (
+				3BFF7D242AD3FCEB00168248 /* Screen */,
+				3BFF7D172AD3CCEB00168248 /* Extension */,
+				3BFF7D162AD3CCDF00168248 /* View */,
+				3BFF7CFD2AD3C27C00168248 /* Hike_AppApp.swift */,
+				3BFF7CFF2AD3C27C00168248 /* ContentView.swift */,
+				3BFF7D012AD3C27E00168248 /* Assets.xcassets */,
+				3BFF7D062AD3C27E00168248 /* Persistence.swift */,
+				3BFF7D082AD3C27E00168248 /* Hike_App.xcdatamodeld */,
+				3BFF7D032AD3C27E00168248 /* Preview Content */,
+			);
+			path = "Hike-App";
+			sourceTree = "<group>";
+		};
+		3BFF7D032AD3C27E00168248 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BFF7D042AD3C27E00168248 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BFF7D162AD3CCDF00168248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BFF7D122AD3C7D100168248 /* CardView.swift */,
+				3BFF7D182AD3CD4500168248 /* BackGroundView.swift */,
+				3BFF7D1E2AD3DDF100168248 /* CustomButton.swift */,
+				3BFF7D202AD3ED3000168248 /* CustomCircle.swift */,
+				3BFF7D222AD3EFDF00168248 /* MotionAnimation.swift */,
+				3BFF7D272AD40BCA00168248 /* CustomListRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BFF7D172AD3CCEB00168248 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3BFF7D142AD3CAA600168248 /* Array-Extension.swift */,
+				3BFF7D1A2AD3CE5100168248 /* Extension-Color.swift */,
+				3BFF7D1C2AD3DAA100168248 /* Localizable.strings */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3BFF7D242AD3FCEB00168248 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3BFF7D252AD3FCFF00168248 /* SettingView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BFF7CF92AD3C27C00168248 /* Hike-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BFF7D0D2AD3C27E00168248 /* Build configuration list for PBXNativeTarget "Hike-App" */;
+			buildPhases = (
+				3BFF7CF62AD3C27C00168248 /* Sources */,
+				3BFF7CF72AD3C27C00168248 /* Frameworks */,
+				3BFF7CF82AD3C27C00168248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hike-App";
+			productName = "Hike-App";
+			productReference = 3BFF7CFA2AD3C27C00168248 /* Hike-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BFF7CF22AD3C27C00168248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3BFF7CF92AD3C27C00168248 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 3BFF7CF52AD3C27C00168248 /* Build configuration list for PBXProject "Hike-App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BFF7CF12AD3C27C00168248;
+			productRefGroup = 3BFF7CFB2AD3C27C00168248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BFF7CF92AD3C27C00168248 /* Hike-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BFF7CF82AD3C27C00168248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFF7D052AD3C27E00168248 /* Preview Assets.xcassets in Resources */,
+				3BFF7D1D2AD3DAA100168248 /* Localizable.strings in Resources */,
+				3BFF7D022AD3C27E00168248 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BFF7CF62AD3C27C00168248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFF7D212AD3ED3000168248 /* CustomCircle.swift in Sources */,
+				3BFF7D072AD3C27E00168248 /* Persistence.swift in Sources */,
+				3BFF7D002AD3C27C00168248 /* ContentView.swift in Sources */,
+				3BFF7D282AD40BCA00168248 /* CustomListRowView.swift in Sources */,
+				3BFF7D1F2AD3DDF100168248 /* CustomButton.swift in Sources */,
+				3BFF7D192AD3CD4500168248 /* BackGroundView.swift in Sources */,
+				3BFF7D0A2AD3C27E00168248 /* Hike_App.xcdatamodeld in Sources */,
+				3BFF7D1B2AD3CE5100168248 /* Extension-Color.swift in Sources */,
+				3BFF7D132AD3C7D100168248 /* CardView.swift in Sources */,
+				3BFF7D232AD3EFDF00168248 /* MotionAnimation.swift in Sources */,
+				3BFF7D262AD3FCFF00168248 /* SettingView.swift in Sources */,
+				3BFF7CFE2AD3C27C00168248 /* Hike_AppApp.swift in Sources */,
+				3BFF7D152AD3CAA600168248 /* Array-Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BFF7D0B2AD3C27E00168248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BFF7D0C2AD3C27E00168248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BFF7D0E2AD3C27E00168248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-MagnifyingGlass AppIcon-Map AppIcon-Mushroom AppIcon-Camera AppIcon-Backpack AppIcon-Campfire";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hike-App/Preview Content\"";
+				DEVELOPMENT_TEAM = MP9J987NN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hiroyuki.shiraishi.Hike-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BFF7D0F2AD3C27E00168248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-MagnifyingGlass AppIcon-Map AppIcon-Mushroom AppIcon-Camera AppIcon-Backpack AppIcon-Campfire";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hike-App/Preview Content\"";
+				DEVELOPMENT_TEAM = MP9J987NN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hiroyuki.shiraishi.Hike-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BFF7CF52AD3C27C00168248 /* Build configuration list for PBXProject "Hike-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFF7D0B2AD3C27E00168248 /* Debug */,
+				3BFF7D0C2AD3C27E00168248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BFF7D0D2AD3C27E00168248 /* Build configuration list for PBXNativeTarget "Hike-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFF7D0E2AD3C27E00168248 /* Debug */,
+				3BFF7D0F2AD3C27E00168248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BFF7D082AD3C27E00168248 /* Hike_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BFF7D092AD3C27E00168248 /* Hike_App.xcdatamodel */,
+			);
+			currentVersion = 3BFF7D092AD3C27E00168248 /* Hike_App.xcdatamodel */;
+			path = Hike_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BFF7CF22AD3C27C00168248 /* Project object */;
+}

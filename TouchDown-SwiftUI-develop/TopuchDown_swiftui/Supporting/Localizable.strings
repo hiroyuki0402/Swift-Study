@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  TopuchDown_swiftui
+
+  Created by SHIRAISHI HIROYUKI on 2023/10/29.
+  
+*/
+
+
+// MARK: - Home
+HomeFooterViewMessage = "当社は、市場で最も最先端で快適、軽量、耐久性のあるフットボール ヘルメットを手頃な価格で提供しています";

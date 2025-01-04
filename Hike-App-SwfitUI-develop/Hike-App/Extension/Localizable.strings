@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Hike-App
+
+  Created by SHIRAISHI HIROYUKI on 2023/10/09.
+  
+*/
+
+
+CardViewComment = "友人や家族向けの楽しくて楽しいアウトドアアクティビティ";
+SettingViewComment = "写真で見るだけでも素敵なハイキングスポットですが、実際に訪れるとさらに感動します。\n再び行きたくなるような場所です。\nこのアプリで最高の1日ハイキングコースを見つけましょう。
+";
+SettingViewQuestion = "どこで完璧なコースを見つけることができますか？";
+SettingViewCatchphrase = "ブーツのホコリを払って！散歩の時間です。";
+SettingAltenateIconDescription = "コレクションからお気に入りのアプリアイコンを選択してください。";
