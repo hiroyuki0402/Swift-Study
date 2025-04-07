@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD8738D2DA407B800BD2655 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 3BD8738C2DA407B800BD2655 /* Lottie */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BEDB7BA2DA3D7C3004FCE41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BEDB7A12DA3D7C1004FCE41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BEDB7A82DA3D7C1004FCE41;
+			remoteInfo = LogInBonus;
+		};
+		3BEDB7C42DA3D7C3004FCE41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BEDB7A12DA3D7C1004FCE41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BEDB7A82DA3D7C1004FCE41;
+			remoteInfo = LogInBonus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BEDB7A92DA3D7C1004FCE41 /* LogInBonus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogInBonus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEDB7B92DA3D7C3004FCE41 /* LogInBonusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogInBonusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEDB7C32DA3D7C3004FCE41 /* LogInBonusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogInBonusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3BEDB7AB2DA3D7C1004FCE41 /* LogInBonus */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LogInBonus;
+			sourceTree = "<group>";
+		};
+		3BEDB7BC2DA3D7C3004FCE41 /* LogInBonusTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LogInBonusTests;
+			sourceTree = "<group>";
+		};
+		3BEDB7C62DA3D7C3004FCE41 /* LogInBonusUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LogInBonusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BEDB7A62DA3D7C1004FCE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD8738D2DA407B800BD2655 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEDB7B62DA3D7C3004FCE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEDB7C02DA3D7C3004FCE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BEDB7A02DA3D7C1004FCE41 = {
+			isa = PBXGroup;
+			children = (
+				3BEDB7AB2DA3D7C1004FCE41 /* LogInBonus */,
+				3BEDB7BC2DA3D7C3004FCE41 /* LogInBonusTests */,
+				3BEDB7C62DA3D7C3004FCE41 /* LogInBonusUITests */,
+				3BEDB7AA2DA3D7C1004FCE41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BEDB7AA2DA3D7C1004FCE41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDB7A92DA3D7C1004FCE41 /* LogInBonus.app */,
+				3BEDB7B92DA3D7C3004FCE41 /* LogInBonusTests.xctest */,
+				3BEDB7C32DA3D7C3004FCE41 /* LogInBonusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BEDB7A82DA3D7C1004FCE41 /* LogInBonus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEDB7CD2DA3D7C3004FCE41 /* Build configuration list for PBXNativeTarget "LogInBonus" */;
+			buildPhases = (
+				3BEDB7A52DA3D7C1004FCE41 /* Sources */,
+				3BEDB7A62DA3D7C1004FCE41 /* Frameworks */,
+				3BEDB7A72DA3D7C1004FCE41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3BEDB7AB2DA3D7C1004FCE41 /* LogInBonus */,
+			);
+			name = LogInBonus;
+			packageProductDependencies = (
+				3BD8738C2DA407B800BD2655 /* Lottie */,
+			);
+			productName = LogInBonus;
+			productReference = 3BEDB7A92DA3D7C1004FCE41 /* LogInBonus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BEDB7B82DA3D7C3004FCE41 /* LogInBonusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEDB7D02DA3D7C3004FCE41 /* Build configuration list for PBXNativeTarget "LogInBonusTests" */;
+			buildPhases = (
+				3BEDB7B52DA3D7C3004FCE41 /* Sources */,
+				3BEDB7B62DA3D7C3004FCE41 /* Frameworks */,
+				3BEDB7B72DA3D7C3004FCE41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BEDB7BB2DA3D7C3004FCE41 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3BEDB7BC2DA3D7C3004FCE41 /* LogInBonusTests */,
+			);
+			name = LogInBonusTests;
+			packageProductDependencies = (
+			);
+			productName = LogInBonusTests;
+			productReference = 3BEDB7B92DA3D7C3004FCE41 /* LogInBonusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BEDB7C22DA3D7C3004FCE41 /* LogInBonusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEDB7D32DA3D7C3004FCE41 /* Build configuration list for PBXNativeTarget "LogInBonusUITests" */;
+			buildPhases = (
+				3BEDB7BF2DA3D7C3004FCE41 /* Sources */,
+				3BEDB7C02DA3D7C3004FCE41 /* Frameworks */,
+				3BEDB7C12DA3D7C3004FCE41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BEDB7C52DA3D7C3004FCE41 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3BEDB7C62DA3D7C3004FCE41 /* LogInBonusUITests */,
+			);
+			name = LogInBonusUITests;
+			packageProductDependencies = (
+			);
+			productName = LogInBonusUITests;
+			productReference = 3BEDB7C32DA3D7C3004FCE41 /* LogInBonusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BEDB7A12DA3D7C1004FCE41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3BEDB7A82DA3D7C1004FCE41 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3BEDB7B82DA3D7C3004FCE41 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3BEDB7A82DA3D7C1004FCE41;
+					};
+					3BEDB7C22DA3D7C3004FCE41 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3BEDB7A82DA3D7C1004FCE41;
+					};
+				};
+			};
+			buildConfigurationList = 3BEDB7A42DA3D7C1004FCE41 /* Build configuration list for PBXProject "LogInBonus" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BEDB7A02DA3D7C1004FCE41;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3BD8738B2DA407B800BD2655 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3BEDB7AA2DA3D7C1004FCE41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BEDB7A82DA3D7C1004FCE41 /* LogInBonus */,
+				3BEDB7B82DA3D7C3004FCE41 /* LogInBonusTests */,
+				3BEDB7C22DA3D7C3004FCE41 /* LogInBonusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BEDB7A72DA3D7C1004FCE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEDB7B72DA3D7C3004FCE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEDB7C12DA3D7C3004FCE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BEDB7A52DA3D7C1004FCE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEDB7B52DA3D7C3004FCE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEDB7BF2DA3D7C3004FCE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BEDB7BB2DA3D7C3004FCE41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BEDB7A82DA3D7C1004FCE41 /* LogInBonus */;
+			targetProxy = 3BEDB7BA2DA3D7C3004FCE41 /* PBXContainerItemProxy */;
+		};
+		3BEDB7C52DA3D7C3004FCE41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BEDB7A82DA3D7C1004FCE41 /* LogInBonus */;
+			targetProxy = 3BEDB7C42DA3D7C3004FCE41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BEDB7CB2DA3D7C3004FCE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BEDB7CC2DA3D7C3004FCE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BEDB7CE2DA3D7C3004FCE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LogInBonus/Preview Content\"";
+				DEVELOPMENT_TEAM = MP9J987NN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiraishi1990.LogInBonus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BEDB7CF2DA3D7C3004FCE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LogInBonus/Preview Content\"";
+				DEVELOPMENT_TEAM = MP9J987NN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiraishi1990.LogInBonus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BEDB7D12DA3D7C3004FCE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP9J987NN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiraishi1990.LogInBonusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogInBonus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LogInBonus";
+			};
+			name = Debug;
+		};
+		3BEDB7D22DA3D7C3004FCE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP9J987NN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiraishi1990.LogInBonusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogInBonus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LogInBonus";
+			};
+			name = Release;
+		};
+		3BEDB7D42DA3D7C3004FCE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP9J987NN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiraishi1990.LogInBonusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LogInBonus;
+			};
+			name = Debug;
+		};
+		3BEDB7D52DA3D7C3004FCE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP9J987NN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiraishi1990.LogInBonusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LogInBonus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BEDB7A42DA3D7C1004FCE41 /* Build configuration list for PBXProject "LogInBonus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEDB7CB2DA3D7C3004FCE41 /* Debug */,
+				3BEDB7CC2DA3D7C3004FCE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEDB7CD2DA3D7C3004FCE41 /* Build configuration list for PBXNativeTarget "LogInBonus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEDB7CE2DA3D7C3004FCE41 /* Debug */,
+				3BEDB7CF2DA3D7C3004FCE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEDB7D02DA3D7C3004FCE41 /* Build configuration list for PBXNativeTarget "LogInBonusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEDB7D12DA3D7C3004FCE41 /* Debug */,
+				3BEDB7D22DA3D7C3004FCE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEDB7D32DA3D7C3004FCE41 /* Build configuration list for PBXNativeTarget "LogInBonusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEDB7D42DA3D7C3004FCE41 /* Debug */,
+				3BEDB7D52DA3D7C3004FCE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3BD8738B2DA407B800BD2655 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3BD8738C2DA407B800BD2655 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BD8738B2DA407B800BD2655 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3BEDB7A12DA3D7C1004FCE41 /* Project object */;
+}
