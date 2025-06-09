@@ -11,7 +11,7 @@ import SwiftUI
 struct LogInBonusApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SlotGameView()
         }
     }
 }
