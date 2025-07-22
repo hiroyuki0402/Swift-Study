@@ -87,8 +87,4 @@ class PromptViewmodel {
     var input: String = ""
     var disabledControl: Bool = false
     var errorString: String?
-
-
-
-
 }
