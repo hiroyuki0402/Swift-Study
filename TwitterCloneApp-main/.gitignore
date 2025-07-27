@@ -1,5 +1,0 @@
-*.xcworkspace/
-*.xcuserdata/
-
-# Ignore Xcode user data
-TwitterCloneApp.xcodeproj/xcuserdata/

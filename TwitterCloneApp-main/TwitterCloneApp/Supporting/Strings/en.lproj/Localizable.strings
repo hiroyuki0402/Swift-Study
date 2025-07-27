@@ -1,8 +1,0 @@
-
-// MARK: - MainTab
-HomeTab = "Home";
-Search = "Search";
-Grok = "Grok";
-Community = "Community";
-Notification = "Notification";
-Message = "Message";
