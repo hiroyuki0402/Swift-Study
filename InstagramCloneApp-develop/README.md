@@ -1,3 +1,0 @@
-#  InstagramCloneApp
-
-## インスタグラム作ってみる
